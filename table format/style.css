@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --last-col: #ff9c0e;
+    --first-row: #b5b5b5;
+    --others: #414141;
+    --background: #121212;
+}
+
+body {
+position: relative;
+height: 100vh;
+width: 100vw;
+background: var(--first-row);
+}
+
+.wrapper {
+    font-family: 'poppins', sans-serif;
+    outline: none;
+    position: absolute;
+    left: 70%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+table {
+border-collapse: collapse;
+border-spacing: 0;
+width: 280px;
+height: 500px;
+text-align:center;
+font-size: 16px;
+background: var(--background);
+outline: none;
+border-radius: 25px;
+box-shadow: rgba(247, 246, 246, 0.384) 0px 10px 20px, rgba(196, 138, 15, 0.952) 0px 6px 6px;
+}
+
+td:not(input){
+    padding-left: 10px;
+    padding-bottom: 10px;
+    transition: 0.3s;
+}
+
+td:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+input {
+    position: relative;
+    width: 250px;
+    height: 150px;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid var(--others);
+    background: var(--background);
+    margin: 10px auto 5px;
+    left: -5px;
+    color: white;
+    font-size: 50px;
+    padding: 10px;
+}
+
+.circle{
+  display:block;
+  height:50px;
+  width:50px;
+  border-radius:50%;
+  color:#fff;
+  line-height:50px;
+  text-align:center ;
+  font-family: 'poppins', sans-serif;
+  font-weight: 500;
+}
+
+.zero{
+    width: 115px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 3px;
+    text-align: start;
+    padding-left: 15px;
+}
+
+/* BUTTON COLOR */
+
+.last {
+   background: var(--last-col) 
+}
+
+.first {
+background: var(--first-row);
+}
+
+.other {
+background: var(--others);
+}
+
+
+
+/* FLEXBOX LINK */
+
+a{
+    text-decoration: none;
+    color: var(--others);
+}
+
+h3{
+    top: 50%;
+    left: 20%;
+    font-family: 'poppins', sans-serif;
+    position: relative;
+}
