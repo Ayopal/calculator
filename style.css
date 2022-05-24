@@ -1,5 +1,7 @@
+/* IMPORTING POPPINS FONT */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
 
+/* GLOBAL STYLE */
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +22,8 @@ width: 100vw;
 background: var(--first-row);
 }
 
+
+/* CALCULATOR STYLE */
 .wrapper {
     font-family: 'poppins', sans-serif;
     outline: none;
@@ -91,8 +95,8 @@ input {
     padding-left: 15px;
 }
 
-/* BUTTON COLOR */
 
+/* CALCULATOR BUTTON COLOR */
 .last {
    background: var(--last-col) 
 }
@@ -107,8 +111,7 @@ background: var(--others);
 
 
 
-/* FLEXBOX LINK */
-
+/* LEFT TEXT LINKING FLEXBOX */
 a{
     text-decoration: none;
     color: var(--others);
